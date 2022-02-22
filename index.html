@@ -543,12 +543,7 @@
 
         function openNav() {
             document.getElementById("mySidenav").style.width = "540px";
-            document.getElementById("main").style.marginLeft = "540px";
-
-
-
-
-
+        
             if (/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
                 document.getElementById("mySidenav").style.width = "300px";
                 document.getElementById("main").style.marginLeft = "300px";
@@ -562,19 +557,15 @@
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("main").style.marginLeft = "0";
-
-
-
-
-
-
         }
 
         document.getElementById("year").innerHTML = new Date().getFullYear();
 
       
-
+        $(".menu-link").on("click", function (e) {
+            $(".menu-link").removeClass("active");
+            $(this).addClass("active");
+        });
 
 
     </script>
