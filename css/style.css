@@ -2,6 +2,7 @@
 
   --primary:#012a50;
   --secondary:#dd6e42;
+  --overlay:#012a5094;
   --white:#fff;
   --black:#000;
 }
@@ -105,6 +106,11 @@ a:hover {
   content: "Capital";
 }
 
+.animate{
+
+  margin-left: -33px;
+
+}
 .active {
   color: var(--secondary) !important;
 }
@@ -197,7 +203,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #012a5094;
+  background: var(--overlay);
   z-index: -1;
 }
 
@@ -904,15 +910,17 @@ svg rect {
 
 footer {
   padding: 100px 0;
-  background-image: url("../images/bg-2.png");
+  background-image: url("../images/2693169.jpg");
   color: var(--white);
   position: relative;
   background-size: cover;
   background-position: center;
+  z-index: 1;
 }
 
-footer .footer-overlay {
-  background-image: linear-gradient(45deg, #002c54, #042849);
+footer:after {
+  content: "";
+  background:var(--overlay);
   position: absolute;
   top: 0;
   bottom: 0;
