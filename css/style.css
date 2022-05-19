@@ -192,7 +192,7 @@ a:hover {
 
 section {
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
   z-index: 1;
   /* scroll-snap-align: start; */
@@ -213,10 +213,11 @@ section:nth-child(1) {
   background-position: bottom center;
   background-size: cover;
   background-repeat: repeat-x;
+  height: 100vh;
 }
 
 section:nth-child(2) {
-  padding: 20px 0;
+  padding: 2rem 0 4rem 0;
   background-image: url(../images/bg-2.png);
   background-position: center;
   background-size: cover;
@@ -442,6 +443,9 @@ svg rect {
 .work-arrow {
   text-align: center;
   color: var(--white);
+  position: absolute;
+  bottom: 45px;
+  width: 100%;
 }
 
 .work-arrow a {
