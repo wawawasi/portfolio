@@ -7,7 +7,6 @@ function openNav() {
 
     if (/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         document.getElementById("mySidenav").style.width = "300px";
-        document.getElementById("main").style.marginLeft = "300px";
     }
 
 }
@@ -114,7 +113,7 @@ for (var i = 0; i < projects.length; i++) {
      '</h3>' +
      '<h6>' + projects[i].Tech + '</h6>' +
      '<div class="project" style="background-image:url(' + projects[i].Image + ')">' +
-     '<img src="images/laptop.png" width="100%">' +
+     '<a href="' + projects[i].Link + '" target="_blank"><img src="images/laptop.png" width="100%"></a>' +
      '</div>' +
      '</div>'
 
