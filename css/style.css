@@ -559,6 +559,14 @@ svg rect {
   margin: 0 auto;
 }
 
+.projects-column{
+  display: none;
+}
+
+.projects-row{
+  margin: 2rem 0;
+}
+
 .project1 {
   background: url(../images/portfolio/prolognet-small.png) 0 0;
 }
@@ -584,7 +592,6 @@ svg rect {
 
 .project {
   position: relative;
-
   border-radius: 3px;
   background-size: 302px;
   background-position: center 14px;
