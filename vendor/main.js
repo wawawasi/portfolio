@@ -30,6 +30,12 @@ $(".menu-link").on("click", function (e) {
 
 projects=[
     {
+        "Name": "Bloom Refill",
+        "Link": "https://bloomrefill.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/Bloom-Refill.png",
+    },
+    {
         "Name": "Horizonpad",
         "Link": "https://horizonpad.io/",
         "Tech": "ReactJS",
@@ -131,6 +137,7 @@ $(function () {
         e.preventDefault();
         x = x + 3;
         $('.projects-column').slice(0, x).slideDown();
+        // if()
     });
 });
 

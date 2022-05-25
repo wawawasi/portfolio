@@ -583,6 +583,12 @@ svg rect {
   
 }
 
+.loadmore p{
+
+  display: none;
+
+}
+
 /* BUTTONS */
 
 .btn-main,
