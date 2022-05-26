@@ -168,7 +168,7 @@ var typed = new Typed('.animate', {
 
 
 new kursor({
-    type: 1,
+    type: 4,
     color: '#dd6e42'
 })
 
