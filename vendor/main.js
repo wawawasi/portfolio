@@ -132,13 +132,21 @@ for (var i = 0; i < projects.length; i++) {
 
 $(function () {
     x = 6;
-    $('.projects-column').slice(0, 6).show();
+    $('.projects-column').slice(0, x).show();
     $('#loadMore').on('click', function (e) {
         e.preventDefault();
         x = x + 3;
         $('.projects-column').slice(0, x).slideDown();
-        // if()
+
+        if($(".projects-column").length < x ){
+
+            $(".loadmore p").css("display","block");
+            $("#loadMore").hide();
+
+        }
     });
+
+  
 });
 
 
