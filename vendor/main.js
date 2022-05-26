@@ -119,7 +119,7 @@ for (var i = 0; i < projects.length; i++) {
      '</h3>' +
      '<h6>' + projects[i].Tech + '</h6>' +
      '<div class="project" style="background-image:url(' + projects[i].Image + ')">' +
-     '<a href="' + projects[i].Link + '" target="_blank"><img src="images/laptop.png" width="100%"></a>' +
+     '<img src="images/laptop.png" width="100%">' +
      '</div>' +
      '</div>'
 
