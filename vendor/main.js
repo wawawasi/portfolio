@@ -30,12 +30,6 @@ $(".menu-link").on("click", function (e) {
 
 projects=[
     {
-        "Name": "Bloom Refill",
-        "Link": "https://bloomrefill.com/",
-        "Tech": "WordPress",
-        "Image": "images/portfolio/Bloom-Refill.png",
-    },
-    {
         "Name": "Horizonpad",
         "Link": "https://horizonpad.io/",
         "Tech": "ReactJS",
@@ -45,7 +39,7 @@ projects=[
         "Name": "Gyr Falcon",
         "Link": "https://gyrf.io/",
         "Tech": "ReactJS",
-        "Image": "images/portfolio/gyrfalcon.png",
+        "Image": "images/portfolio/gyr-falcon.png",
     },
     {
         "Name": "Aggreg",
@@ -58,6 +52,30 @@ projects=[
         "Link": "https://www.scamlistcrypto.com/",
         "Tech": "ReactJS/HTML/CSS/JAVASCRIPT",
         "Image": "images/portfolio/scamtoken.png",
+    },
+    {
+        "Name": "Pluton LTD",
+        "Link": "https://pluton.ltd/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/pluton.ltd.png",
+    },
+    {
+        "Name": "T For Technology",
+        "Link": "https://tfortechnology.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/tfortechnology.png",
+    },
+    {
+        "Name": "Boundless Enterprises",
+        "Link": "https://boundlessent.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/boundless.png",
+    },
+    {
+        "Name": "Bloom Refill",
+        "Link": "https://bloomrefill.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/Bloom-Refill.png",
     },
     {
         "Name": "Lasmeta",
@@ -77,6 +95,14 @@ projects=[
         "Tech": "WordPress",
         "Image": "images/portfolio/Messiah-Frieghts-small.png",
     },
+
+    {
+        "Name": "Fly Courier",
+        "Link": "https://flycourier.com.pk/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/fly-courier.png",
+    },
+
     {
         "Name": "Cargoas",
         "Link": "https://cargoas.com/",
@@ -90,10 +116,34 @@ projects=[
         "Image": "images/portfolio/liltutu-small.png",
     },
     {
+        "Name": "Pak Steel Trade",
+        "Link": "http://paksteeltrade.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/pak-steel.png",
+    },
+    {
+        "Name": "Technical Enterprise",
+        "Link": "http://te-hr.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/Technical-Enterprises.png",
+    },
+    {
+        "Name": "Zaytuna Medical Spa",
+        "Link": "https://zaytunamedicalspa.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/zaytuna.png",
+    },
+    {
         "Name": "Find Family Doctor",
         "Link": "http://www.findfamilydoctor.com/",
         "Tech": "WordPress",
         "Image": "images/portfolio/findfamilydoctor-small.png",
+    },
+    {
+        "Name": "J.PAULETTE FORSHEY",
+        "Link": "https://jpauletteforshey.com/",
+        "Tech": "WordPress",
+        "Image": "images/portfolio/JPaulette-Forshey.png",
     },
     {
         "Name": "Merus Capital",
